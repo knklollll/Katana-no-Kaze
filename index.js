@@ -384,7 +384,7 @@ function buildEmbed(stats) {
     .setTitle("📊 Roblox Game Dashboard")
 
     .setDescription(
-      `<:KnK:1509812496406675618> ${stats.name}`
+      `<:KnK:1547540193848852500> ${stats.name}`
     )
 
     .setColor(0x00bfff)
@@ -649,7 +649,7 @@ client.on("messageCreate", async (message) => {
     const rank = updateAndGetRank(stats.username, stats.kills);
 
     message.reply(
-`<:KnK:1509812496406675618> PLAYER STATS
+`<:KnK:1547540193848852500> PLAYER STATS
 👤 Username:
 ${stats.username}
 ⚔️ Total Kills:
